@@ -1,0 +1,17 @@
+{
+  "affordableMonthlyPayment": 75,
+  "financialStability": "보통",
+  "recommendedPriceMin": 1800,
+  "recommendedPriceMax": 2400,
+  "expenseBreakdown": [
+    { "name": "고정지출", "value": 45, "color": "#2460a8" },
+    { "name": "생활비", "value": 18, "color": "#f3ab26" },
+    { "name": "기존 대출", "value": 12, "color": "#169b87" },
+    { "name": "여유 자금", "value": 25, "color": "#dfe8f2" }
+  ],
+  "debtComparison": [
+    { "name": "대출 잔액", "current": 72, "recommended": 24 },
+    { "name": "월 상환액", "current": 38, "recommended": 67 },
+    { "name": "부채 건수", "current": 31, "recommended": 18 }
+  ]
+}

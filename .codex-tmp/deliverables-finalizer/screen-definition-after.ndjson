@@ -1,0 +1,122 @@
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"CreditComPass Auto","textShapes":5}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"text":"CreditComPass Auto\n화면정의서","textPreview":"CreditComPass Auto | 화면정의서","textChars":24,"textLines":2,"bbox":[84,130,780,170]}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"text":"재무·신용 분석 기반 차량 구매 예산 및 맞춤 차량 추천 서비스","textPreview":"재무·신용 분석 기반 차량 구매 예산 및 맞춤 차량 추천 서비스","textChars":35,"textLines":1,"bbox":[90,325,800,42]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"text":"현재 상태","textPreview":"현재 상태","textChars":5,"textLines":1,"bbox":[112,425,110,26]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"text":"React 4개 구현 · Figma 전체 흐름 10개 이상 구현 중","textPreview":"React 4개 구현 · Figma 전체 흐름 10개 이상 구현 중","textChars":37,"textLines":1,"bbox":[112,452,400,34]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"text":"2026.10   산출물 정리본","textPreview":"2026.10   산출물 정리본","textChars":17,"textLines":1,"bbox":[90,625,400,30]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"현재 React 구현과 Figma 전체 서비스 화면 구성을 구분합니다."}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"1. 프로젝트와 사용자 범위","textShapes":7}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"text":"1. 프로젝트와 사용자 범위","textPreview":"1. 프로젝트와 사용자 범위","textChars":15,"textLines":1,"bbox":[64,42,1050,54]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"text":"확정 내용과 현재 프로토타입 범위","textPreview":"확정 내용과 현재 프로토타입 범위","textChars":18,"textLines":1,"bbox":[66,100,1100,28]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"text":"CreditComPass Auto   React 프로토타입과 전체 서비스 계획","textPreview":"CreditComPass Auto   React 프로토타입과 전체 서비스 계획","textChars":43,"textLines":1,"bbox":[64,672,1000,24]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"text":"현재 확정 정보","textPreview":"현재 확정 정보","textChars":8,"textLines":1,"bbox":[92,178,450,36]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"text":"• 핵심 사용자: 사회초년생과 첫차 구매자\n• 입력: 재무·신용정보와 차량 이용조건\n• 결과: 월 가용자금, 자체 위험 수준, 추천 예산\n• 후속 화면: 추천 차량과 추천 이유\n• 현재 분석값: Mock 데이터와 예시 규칙","textPreview":"• 핵심 사용자: 사회초년생과 첫차 구매자 | • 입력: 재무·신용정보와 차량 이용조건 | • 결과: 월 가용자금, 자체 위험 수준, 추천 예산 | • 후속 화면: 추천 차량과 추천 이유 | • 현재 분석값: Mock 데이터와 예시 규칙","textChars":124,"textLines":5,"bbox":[92,232,440,260]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"text":"현재 범위와 확장 계획","textPreview":"현재 범위와 확장 계획","textChars":12,"textLines":1,"bbox":[660,178,500,36]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"text":"1. React 핵심 화면 4개 구현\n2. Figma 전체 서비스 화면 10개 이상 구현 중\n3. 차량 상세·비교·시뮬레이션·구매계획 시안 포함\n4. 실제 모델·FastAPI·Spring Boot·MySQL은 미연결\n5. 미정 항목은 팀 승인 후 기능과 화면에 반영","textPreview":"1. React 핵심 화면 4개 구현 | 2. Figma 전체 서비스 화면 10개 이상 구현 중 | 3. 차량 상세·비교·시뮬레이션·구매계획 시안 포함 | 4. 실제 모델·FastAPI·Spring Boot·MySQL은 미연결 | 5. 미정 항목...","textChars":148,"textLines":5,"bbox":[660,230,500,270]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"Figma에서는 전체 서비스 흐름의 화면 10개 이상을 구현 중입니다."}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"2. 화면 목록","textShapes":39}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"text":"2. 화면 목록","textPreview":"2. 화면 목록","textChars":8,"textLines":1,"bbox":[64,42,1050,54]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"text":"현재 React 화면과 Figma 전체 서비스 시안 구분","textPreview":"현재 React 화면과 Figma 전체 서비스 시안 구분","textChars":31,"textLines":1,"bbox":[66,100,1100,28]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"text":"CreditComPass Auto   화면 ID와 기능 ID 연결","textPreview":"CreditComPass Auto   화면 ID와 기능 ID 연결","textChars":36,"textLines":1,"bbox":[64,672,1000,24]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"text":"화면 ID","textPreview":"화면 ID","textChars":5,"textLines":1,"bbox":[74,164,150,42]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"text":"화면명","textPreview":"화면명","textChars":3,"textLines":1,"bbox":[245,164,400,42]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"text":"기능 ID","textPreview":"기능 ID","textChars":5,"textLines":1,"bbox":[665,164,250,42]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"text":"상태","textPreview":"상태","textChars":2,"textLines":1,"bbox":[935,164,160,42]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"text":"SCR-MAIN 외","textPreview":"SCR-MAIN 외","textChars":10,"textLines":1,"bbox":[74,215,150,40]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"text":"메인·로그인·회원가입","textPreview":"메인·로그인·회원가입","textChars":11,"textLines":1,"bbox":[245,215,400,40]}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"text":"FN-001 / 미정","textPreview":"FN-001 / 미정","textChars":11,"textLines":1,"bbox":[665,215,250,40]}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"text":"Figma/React","textPreview":"Figma/React","textChars":11,"textLines":1,"bbox":[935,215,160,40]}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"text":"SCR-APPLY","textPreview":"SCR-APPLY","textChars":9,"textLines":1,"bbox":[74,266,150,40]}
+{"kind":"textbox","id":"sh/6d0fytg3","slide":3,"text":"5단계 입력·입력 확인","textPreview":"5단계 입력·입력 확인","textChars":12,"textLines":1,"bbox":[245,266,400,40]}
+{"kind":"textbox","id":"sh/sfix03y9","slide":3,"text":"FN-002~004","textPreview":"FN-002~004","textChars":10,"textLines":1,"bbox":[665,266,250,40]}
+{"kind":"textbox","id":"sh/a9kfadwn","slide":3,"text":"Figma/React","textPreview":"Figma/React","textChars":11,"textLines":1,"bbox":[935,266,160,40]}
+{"kind":"textbox","id":"sh/l4fi9cza","slide":3,"text":"SCR-RESULT","textPreview":"SCR-RESULT","textChars":10,"textLines":1,"bbox":[74,317,150,40]}
+{"kind":"textbox","id":"sh/z2d07mh4","slide":3,"text":"종합 분석 결과와 근거","textPreview":"종합 분석 결과와 근거","textChars":12,"textLines":1,"bbox":[245,317,400,40]}
+{"kind":"textbox","id":"sh/x0vi5czy","slide":3,"text":"FN-005~007","textPreview":"FN-005~007","textChars":10,"textLines":1,"bbox":[665,317,250,40]}
+{"kind":"textbox","id":"sh/byd032h8","slide":3,"text":"Figma/React","textPreview":"Figma/React","textChars":11,"textLines":1,"bbox":[935,317,160,40]}
+{"kind":"textbox","id":"sh/hwzihwzi","slide":3,"text":"SCR-RECOMMEND","textPreview":"SCR-RECOMMEND","textChars":13,"textLines":1,"bbox":[74,368,150,40]}
+{"kind":"textbox","id":"sh/4nuhs7uh","slide":3,"text":"추천 차량 목록","textPreview":"추천 차량 목록","textChars":8,"textLines":1,"bbox":[245,368,400,40]}
+{"kind":"textbox","id":"sh/21szqxcb","slide":3,"text":"FN-008, 009","textPreview":"FN-008, 009","textChars":11,"textLines":1,"bbox":[665,368,250,40]}
+{"kind":"textbox","id":"sh/cruhwrud","slide":3,"text":"Figma/React","textPreview":"Figma/React","textChars":11,"textLines":1,"bbox":[935,368,160,40]}
+{"kind":"textbox","id":"sh/qpczuhc7","slide":3,"text":"미정","textPreview":"미정","textChars":2,"textLines":1,"bbox":[74,419,150,40]}
+{"kind":"textbox","id":"sh/0ve10ru9","slide":3,"text":"차량 상세·비교","textPreview":"차량 상세·비교","textChars":8,"textLines":1,"bbox":[245,419,400,40]}
+{"kind":"textbox","id":"sh/v29cfu18","slide":3,"text":"FN-010","textPreview":"FN-010","textChars":6,"textLines":1,"bbox":[665,419,250,40]}
+{"kind":"textbox","id":"sh/xoruhkje","slide":3,"text":"Figma 시안","textPreview":"Figma 시안","textChars":8,"textLines":1,"bbox":[935,419,160,40]}
+{"kind":"textbox","id":"sh/nypcba1c","slide":3,"text":"미정","textPreview":"미정","textChars":2,"textLines":1,"bbox":[74,470,150,40]}
+{"kind":"textbox","id":"sh/90rudkji","slide":3,"text":"조건 시뮬레이션·구매계획","textPreview":"조건 시뮬레이션·구매계획","textChars":13,"textLines":1,"bbox":[245,470,400,40]}
+{"kind":"textbox","id":"sh/7utcne1g","slide":3,"text":"FN-010","textPreview":"FN-010","textChars":6,"textLines":1,"bbox":[665,470,250,40]}
+{"kind":"textbox","id":"sh/2p4f6dk3","slide":3,"text":"Figma 시안","textPreview":"Figma 시안","textChars":8,"textLines":1,"bbox":[935,470,160,40]}
+{"kind":"textbox","id":"sh/or6x8329","slide":3,"text":"미정","textPreview":"미정","textChars":2,"textLines":1,"bbox":[74,521,150,40]}
+{"kind":"textbox","id":"sh/qtofadkf","slide":3,"text":"마이페이지·관리자","textPreview":"마이페이지·관리자","textChars":9,"textLines":1,"bbox":[245,521,400,40]}
+{"kind":"textbox","id":"sh/cf6xcn2l","slide":3,"text":"미정","textPreview":"미정","textChars":2,"textLines":1,"bbox":[665,521,250,40]}
+{"kind":"textbox","id":"sh/6xkvytkb","slide":3,"text":"Figma 시안","textPreview":"Figma 시안","textChars":8,"textLines":1,"bbox":[935,521,160,40]}
+{"kind":"textbox","id":"sh/9cjidwny","slide":3,"text":"미정","textPreview":"미정","textChars":2,"textLines":1,"bbox":[74,572,150,40]}
+{"kind":"textbox","id":"sh/na10bm58","slide":3,"text":"분석모형 설명·서비스 구조","textPreview":"분석모형 설명·서비스 구조","textChars":14,"textLines":1,"bbox":[245,572,400,40]}
+{"kind":"textbox","id":"sh/xg3ihwna","slide":3,"text":"미정","textPreview":"미정","textChars":2,"textLines":1,"bbox":[665,572,250,40]}
+{"kind":"textbox","id":"sh/ve10fm54","slide":3,"text":"Figma 시안","textPreview":"Figma 시안","textChars":8,"textLines":1,"bbox":[935,572,160,40]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"현재 구현 화면과 Figma 시안을 상태 열에서 구분했습니다."}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"3. 핵심 사용자 흐름","textShapes":23}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"text":"3. 핵심 사용자 흐름","textPreview":"3. 핵심 사용자 흐름","textChars":12,"textLines":1,"bbox":[64,42,1050,54]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"text":"현재 React 프로토타입의 입력, 결과, 근거, 다음 행동 흐름","textPreview":"현재 React 프로토타입의 입력, 결과, 근거, 다음 행동 흐름","textChars":36,"textLines":1,"bbox":[66,100,1100,28]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"text":"CreditComPass Auto   현재 구현 흐름","textPreview":"CreditComPass Auto   현재 구현 흐름","textChars":29,"textLines":1,"bbox":[64,672,1000,24]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[73,252,38,38]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"text":"서비스 안내","textPreview":"서비스 안내","textChars":6,"textLines":1,"bbox":[75,306,165,58]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"text":"SCR-MAIN","textPreview":"SCR-MAIN","textChars":8,"textLines":1,"bbox":[75,377,165,30]}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[261,300,38,50]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[317,252,38,38]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"text":"재무·신용정보 입력","textPreview":"재무·신용정보 입력","textChars":10,"textLines":1,"bbox":[319,306,165,58]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"text":"SCR-APPLY 1단계","textPreview":"SCR-APPLY 1단계","textChars":13,"textLines":1,"bbox":[319,377,165,30]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[505,300,38,50]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[561,252,38,38]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"text":"차량 이용조건 입력","textPreview":"차량 이용조건 입력","textChars":10,"textLines":1,"bbox":[563,306,165,58]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"text":"SCR-APPLY 2단계","textPreview":"SCR-APPLY 2단계","textChars":13,"textLines":1,"bbox":[563,377,165,30]}
+{"kind":"textbox","id":"sh/h4fa9wfy","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[749,300,38,50]}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[805,252,38,38]}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"text":"분석 결과와 근거","textPreview":"분석 결과와 근거","textChars":9,"textLines":1,"bbox":[807,306,165,58]}
+{"kind":"textbox","id":"sh/2xkrih8b","slide":4,"text":"SCR-RESULT","textPreview":"SCR-RESULT","textChars":10,"textLines":1,"bbox":[807,377,165,30]}
+{"kind":"textbox","id":"sh/1wbapc7q","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[993,300,38,50]}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1049,252,38,38]}
+{"kind":"textbox","id":"sh/et0reh8f","slide":4,"text":"추천 차량 비교","textPreview":"추천 차량 비교","textChars":8,"textLines":1,"bbox":[1051,306,165,58]}
+{"kind":"textbox","id":"sh/tsrqlc7u","slide":4,"text":"SCR-RECOMMEND","textPreview":"SCR-RECOMMEND","textChars":13,"textLines":1,"bbox":[1051,377,165,30]}
+{"kind":"textbox","id":"sh/sri9s7q9","slide":4,"text":"Figma 확장 흐름: 상세, 비교, 조건 시뮬레이션, 구매계획, 마이페이지와 관리자 화면","textPreview":"Figma 확장 흐름: 상세, 비교, 조건 시뮬레이션, 구매계획, 마이페이지와 관리자 화면","textChars":50,"textLines":1,"bbox":[70,505,1090,48]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"React 핵심 흐름은 로그인 없이 메인, 입력, 결과, 추천 화면으로 이어집니다."}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"4. 종합 분석 결과 화면 (SCR-RESULT)","textShapes":10}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"text":"4. 종합 분석 결과 화면 (SCR-RESULT)","textPreview":"4. 종합 분석 결과 화면 (SCR-RESULT)","textChars":27,"textLines":1,"bbox":[64,42,1050,54]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"text":"핵심 결과, 결과 근거와 다음 행동을 한 화면에서 제공","textPreview":"핵심 결과, 결과 근거와 다음 행동을 한 화면에서 제공","textChars":30,"textLines":1,"bbox":[66,100,1100,28]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"text":"CreditComPass Auto   예시 데이터 표시 원칙 적용","textPreview":"CreditComPass Auto   예시 데이터 표시 원칙 적용","textChars":36,"textLines":1,"bbox":[64,672,1000,24]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"text":"예시 데이터 배지      입력값 기준 요약","textPreview":"예시 데이터 배지      입력값 기준 요약","textChars":24,"textLines":1,"bbox":[108,182,670,42]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"text":"월 납입 가능액\n만원 단위 예시값","textPreview":"월 납입 가능액 | 만원 단위 예시값","textChars":18,"textLines":2,"bbox":[108,267,190,80]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"text":"재무 안정성\n자체 등급","textPreview":"재무 안정성 | 자체 등급","textChars":12,"textLines":2,"bbox":[355,267,190,80]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"text":"추천 차량 예산\n만원 범위","textPreview":"추천 차량 예산 | 만원 범위","textChars":14,"textLines":2,"bbox":[602,267,176,80]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"text":"소득 사용처 구성 차트\n현재·권장 수준, 긍정·주의 요인, 추천 차량 이동","textPreview":"소득 사용처 구성 차트 | 현재·권장 수준, 긍정·주의 요인, 추천 차량 이동","textChars":41,"textLines":2,"bbox":[108,430,670,90]}
+{"kind":"textbox","id":"sh/j6dwfqds","slide":5,"text":"화면 정의","textPreview":"화면 정의","textChars":5,"textLines":1,"bbox":[878,174,310,34]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"text":"연결 기능\nFN-005 Mock 분석\nFN-006~007 결과와 근거\n\n입력\nZustand에 저장된 신청 정보\n\n상태\n로딩, 입력 없음, API 오류\n\n완료 조건\n예시값, 근거와 다음 행동 표시","textPreview":"연결 기능 | FN-005 Mock 분석 | FN-006~007 결과와 근거 |  | 입력 | Zustand에 저장된 신청 정보 |  | 상태 | 로딩, 입력 없음, API 오류 |  | 완료 조건 | 예시값, 근거와 다음 행동 표시","textChars":108,"textLines":12,"bbox":[878,222,300,330]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"결과는 교육·시연용이며 실제 신용점수나 금융기관 승인 결과가 아닙니다."}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"5. 화면 정의 작성 기준","textShapes":15}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"text":"5. 화면 정의 작성 기준","textPreview":"5. 화면 정의 작성 기준","textChars":14,"textLines":1,"bbox":[64,42,1050,54]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"text":"현재 구현과 Figma 시안에 동일한 작성 기준 적용","textPreview":"현재 구현과 Figma 시안에 동일한 작성 기준 적용","textChars":29,"textLines":1,"bbox":[66,100,1100,28]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"text":"CreditComPass Auto   화면 명세 공통 기준","textPreview":"CreditComPass Auto   화면 명세 공통 기준","textChars":32,"textLines":1,"bbox":[64,672,1000,24]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"text":"기본 정보","textPreview":"기본 정보","textChars":5,"textLines":1,"bbox":[86,178,316,30]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"text":"화면 ID / 화면명 / 목적\n사용자 / 경로 / 관련 기능 ID","textPreview":"화면 ID / 화면명 / 목적 | 사용자 / 경로 / 관련 기능 ID","textChars":36,"textLines":2,"bbox":[86,220,316,100]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"text":"구성 요소","textPreview":"구성 요소","textChars":5,"textLines":1,"bbox":[481,178,316,30]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"text":"입력 / 결과 카드 / 차트 / 근거\n예시 데이터 배지 / 다음 행동","textPreview":"입력 / 결과 카드 / 차트 / 근거 | 예시 데이터 배지 / 다음 행동","textChars":38,"textLines":2,"bbox":[481,220,316,100]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"text":"동작 정의","textPreview":"동작 정의","textChars":5,"textLines":1,"bbox":[876,178,316,30]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"text":"입력 검증 / Zustand 저장\nMock API 요청 / 성공 결과 / 이동 경로","textPreview":"입력 검증 / Zustand 저장 | Mock API 요청 / 성공 결과 / 이동 경로","textChars":46,"textLines":2,"bbox":[876,220,316,100]}
+{"kind":"textbox","id":"sh/47mt0b6x","slide":6,"text":"상태 정의","textPreview":"상태 정의","textChars":5,"textLines":1,"bbox":[86,396,316,30]}
+{"kind":"textbox","id":"sh/j6dcr65c","slide":6,"text":"로딩 / 빈 결과 / 잘못된 입력\nAPI 오류 / 재시도 / 이전 단계","textPreview":"로딩 / 빈 결과 / 잘못된 입력 | API 오류 / 재시도 / 이전 단계","textChars":39,"textLines":2,"bbox":[86,438,316,100]}
+{"kind":"textbox","id":"sh/twfux0ne","slide":6,"text":"데이터 표현","textPreview":"데이터 표현","textChars":6,"textLines":1,"bbox":[481,396,316,30]}
+{"kind":"textbox","id":"sh/svmt4v6t","slide":6,"text":"만원 / 개월 / km / 기준일\n예시값 / 출처 / 분석 한계","textPreview":"만원 / 개월 / km / 기준일 | 예시값 / 출처 / 분석 한계","textChars":35,"textLines":2,"bbox":[481,438,316,100]}
+{"kind":"textbox","id":"sh/dcnm98zm","slide":6,"text":"범위 구분","textPreview":"범위 구분","textChars":5,"textLines":1,"bbox":[876,396,316,30]}
+{"kind":"textbox","id":"sh/qpwnet0b","slide":6,"text":"현재 구현 / Figma 시안 / 미정\n완료 조건 / 테스트 기준","textPreview":"현재 구현 / Figma 시안 / 미정 | 완료 조건 / 테스트 기준","textChars":36,"textLines":2,"bbox":[876,438,316,100]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"가격과 금융비용은 출처와 기준일 확인 전까지 예시값으로 표시합니다."}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"6. 확정 사항과 미결정 사항","textShapes":7}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"text":"6. 확정 사항과 미결정 사항","textPreview":"6. 확정 사항과 미결정 사항","textChars":16,"textLines":1,"bbox":[64,42,1050,54]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"text":"현재 팀 합의 내용과 다음 결정 항목","textPreview":"현재 팀 합의 내용과 다음 결정 항목","textChars":20,"textLines":1,"bbox":[66,100,1100,28]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"text":"CreditComPass Auto   2026-10-02 기준","textPreview":"CreditComPass Auto   2026-10-02 기준","textChars":34,"textLines":1,"bbox":[64,672,1000,24]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"text":"확정 사항","textPreview":"확정 사항","textChars":5,"textLines":1,"bbox":[94,185,460,32]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"text":"☑ 핵심 사용자는 사회초년생과 첫차 구매자\n\n☑ 재무·신용정보와 차량 조건을 함께 분석\n\n☑ React 핵심 화면 4개는 Mock 데이터로 구현\n\n☑ Figma 전체 서비스 화면 10개 이상 구현 중","textPreview":"☑ 핵심 사용자는 사회초년생과 첫차 구매자 |  | ☑ 재무·신용정보와 차량 조건을 함께 분석 |  | ☑ React 핵심 화면 4개는 Mock 데이터로 구현 |  | ☑ Figma 전체 서비스 화면 10개 이상 구현 중","textChars":111,"textLines":7,"bbox":[96,245,460,260]}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"text":"미결정 사항","textPreview":"미결정 사항","textChars":6,"textLines":1,"bbox":[676,185,480,32]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"text":"☐ 최종 데이터 출처와 사용 허가 범위\n\n☐ 모델 목표값, 등급 기준과 평가 통과 기준\n\n☐ 예산 계산 방식과 차량 추천 가중치\n\n☐ 전체 기능 중 1차 개발에 포함할 범위","textPreview":"☐ 최종 데이터 출처와 사용 허가 범위 |  | ☐ 모델 목표값, 등급 기준과 평가 통과 기준 |  | ☐ 예산 계산 방식과 차량 추천 가중치 |  | ☐ 전체 기능 중 1차 개발에 포함할 범위","textChars":96,"textLines":7,"bbox":[678,245,480,260]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"미결정 항목은 확정 전까지 실제 기능이나 모델 성능처럼 표현하지 않습니다."}

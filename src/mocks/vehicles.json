@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "기아 모닝 1.0", "type": "경차", "fuel": "가솔린", "price": "1,300만원", "monthly": "약 28만원", "efficiency": "15.7km/L", "fit": 96, "reason": "도심 출퇴근과 낮은 유지비 조건에 잘 맞는 예시 추천입니다." },
+  { "id": 2, "name": "현대 아반떼 하이브리드", "type": "세단", "fuel": "하이브리드", "price": "2,700만원", "monthly": "약 52만원", "efficiency": "21.1km/L", "fit": 92, "reason": "연간 주행거리가 긴 사용자에게 연료 효율이 좋은 예시 차량입니다." },
+  { "id": 3, "name": "기아 셀토스 1.6", "type": "SUV", "fuel": "가솔린", "price": "2,400만원", "monthly": "약 47만원", "efficiency": "12.8km/L", "fit": 89, "reason": "가족 이용과 적재 공간 선호를 함께 반영한 예시 추천입니다." },
+  { "id": 4, "name": "현대 캐스퍼 1.0", "type": "경차", "fuel": "가솔린", "price": "1,500만원", "monthly": "약 31만원", "efficiency": "14.3km/L", "fit": 87, "reason": "도심 주행과 실용적인 공간을 고려한 예시 추천입니다." },
+  { "id": 5, "name": "르노 아르카나 1.6", "type": "SUV", "fuel": "하이브리드", "price": "2,900만원", "monthly": "약 56만원", "efficiency": "17.4km/L", "fit": 84, "reason": "혼합 도로 주행과 연료 효율을 고려한 예시 추천입니다." },
+  { "id": 6, "name": "현대 코나 1.6", "type": "SUV", "fuel": "가솔린", "price": "2,500만원", "monthly": "약 49만원", "efficiency": "13.6km/L", "fit": 81, "reason": "주말 이용과 다양한 도로 환경을 고려한 예시 추천입니다." }
+]
